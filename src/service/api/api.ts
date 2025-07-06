@@ -1,6 +1,6 @@
 import axios from 'axios';
 //const BASE_URL = 'http://localhost:8080/MaxMoneyQueue/';
-const BASE_URL = 'http://103.125.216.56:8101/MaxMoneyQueue/';
+const BASE_URL = 'https://103.125.216.56:8101/MaxMoneyQueue/';
 export const api = axios.create({
   baseURL: BASE_URL,
   headers: {
